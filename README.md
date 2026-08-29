@@ -95,7 +95,7 @@
 自分がどの危険要素を理解できていて、どこを間違えたのかを確認できます。
 
 <p align="center">
-  <img src="images/03-result.png" width="450" alt="回答結果画面">
+  <img src="images/03-result.png" width="300" alt="回答結果画面">
 </p>
 
 ---
