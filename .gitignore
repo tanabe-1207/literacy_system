@@ -1,0 +1,28 @@
+# API keys / secrets
+.streamlit/secrets.toml
+.env
+
+# Database / user history
+data/literacy.db
+
+# Backups
+data/backups/
+
+# Raw scraped data
+data/raw_pages.json
+data/raw_cases.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
