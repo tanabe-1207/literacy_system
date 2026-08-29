@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "source": "IPA",
+    "type": "phishing",
+    "title": "情報セキュリティ安心相談窓口の相談状況［2025年第3四半期（7月～9月）］",
+    "url": "https://www.ipa.go.jp/security/anshin/reports/2025q3outline.html"
+  },
+  {
+    "id": 2,
+    "source": "フィッシング対策協議会",
+    "type": "phishing",
+    "title": "PayPayアプリでの支払いへ誘導するフィッシング (2026/04/02)",
+    "url": "https://www.antiphishing.jp/news/alert/paypay_20260402.html"
+  },
+  {
+    "id": 3,
+    "source": "JFC",
+    "type": "fake_news",
+    "title": "高市首相が「移民より出産増で人口減対策」と演説? 出生率向上重視しつつ、外国人労働力も否定せず",
+    "url": "https://www.factcheckcenter.jp/fact-check/politics/did-pm-takaichi-really-advocate-for-raising-the-birth-rate-over-immigration-as-a-solution-to-population-decline/"
+  }
+]

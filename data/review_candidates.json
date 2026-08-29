@@ -1,0 +1,113 @@
+[
+  {
+    "id": 2,
+    "type": "phishing",
+    "question": "この文章で特に注意すべき危険要素を選択してください。",
+    "text": "クレジットカードの月額請求や通信料金の支払いを装ったメールが届きました。本文には、PayPayアプリでの支払いを促す内容が記載されており、最終的に送金させる手口の報告を受けています。",
+    "choices": [
+      "金銭・送金要求",
+      "統計の悪用",
+      "誇張表現",
+      "なりすまし",
+      "添付ファイルの危険性"
+    ],
+    "answer": [
+      "なりすまし",
+      "金銭・送金要求"
+    ],
+    "category": [
+      "なりすまし",
+      "金銭・送金要求"
+    ],
+    "related_categories": [],
+    "difficulty": 2,
+    "answer_details": [
+      {
+        "category": "なりすまし",
+        "evidence": "本文には、PayPayアプリでの支払いを促す内容が記載されており、最終的に送金させる手口の報告を受けています。",
+        "reason": "実際とは異なる名目で正規の連絡であるかのように装っているため。"
+      },
+      {
+        "category": "金銭・送金要求",
+        "evidence": "クレジットカードの月額請求や通信料金の支払いを装ったメールが届きました。",
+        "reason": "支払いや送金を直接促す内容が含まれているため。"
+      }
+    ],
+    "source": "フィッシング対策協議会",
+    "title": "PayPayアプリでの支払いへ誘導するフィッシング (2026/04/02)",
+    "url": "https://www.antiphishing.jp/news/alert/paypay_20260402.html",
+    "source_page_id": 2,
+    "text_length": 173,
+    "important_words": [
+      "緊急",
+      "情報",
+      "PayPay",
+      "アプリ",
+      "支払い",
+      "誘導",
+      "フィッシング",
+      "2026",
+      "04",
+      "02",
+      "クレジットカード",
+      "月額",
+      "請求",
+      "通信",
+      "料金",
+      "装う",
+      "メール",
+      "送金",
+      "手口",
+      "報告"
+    ],
+    "urls": [],
+    "detected_categories": [
+      {
+        "category": "なりすまし",
+        "score": 8,
+        "confidence": 12,
+        "strong_hit_count": 3,
+        "weak_hit_count": 0,
+        "regex_hit_count": 1,
+        "matched_words": [
+          "よそおう",
+          "装う",
+          "ジットカードの月額請求や通信料金の支払いをよそおう"
+        ],
+        "evidence": "クレジットカードの月額請求や通信料金の支払いをよそおうフィッシングメールから PayPayアプリでの支払いへ誘導し、送金させる手口の報告を受けています。"
+      },
+      {
+        "category": "金銭・送金要求",
+        "score": 22,
+        "confidence": 31,
+        "strong_hit_count": 6,
+        "weak_hit_count": 7,
+        "regex_hit_count": 3,
+        "matched_words": [
+          "送金",
+          "支払いへ誘導",
+          "支払い",
+          "支払",
+          "料金",
+          "PayPay"
+        ],
+        "evidence": "クレジットカードの月額請求や通信料金の支払いをよそおうフィッシングメールから PayPayアプリでの支払いへ誘導し、送金させる手口の報告を受けています。"
+      }
+    ],
+    "auto_generated": true,
+    "validation_status": "valid",
+    "validation_errors": [],
+    "quality_flags": [],
+    "auto_approval_hint": "auto_ready",
+    "review_required": false,
+    "original_text_before_ai_refine": "緊急情報 > PayPayアプリでの支払いへ誘導するフィッシング (2026/04/02)。PayPayアプリでの支払いへ誘導するフィッシング (2026/04/02)。2026年04月02日。クレジットカードの月額請求や通信料金の支払いをよそおうフィッシングメールから PayPayアプリでの支払いへ誘導し、送金させる手口の報告を受けています。",
+    "ai_refined": true,
+    "ai_refine_status": "refined",
+    "ai_refine_model": "gemini-2.5-flash-lite",
+    "ai_refine_warnings": [],
+    "auto_approval_status": "needs_review",
+    "auto_approval_reasons": [
+      "なりすましの根拠になる表現が弱いです。"
+    ]
+  }
+]
