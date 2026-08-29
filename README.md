@@ -95,7 +95,7 @@
 自分がどの危険要素を理解できていて、どこを間違えたのかを確認できます。
 
 <p align="center">
-  <img src="images/03-result.png" width="500" alt="回答結果画面">
+  <img src="images/03-result.png" width="400" alt="回答結果画面">
 </p>
 
 ---
@@ -115,7 +115,7 @@
 緊急性誘導や個人情報要求として解説します。
 
 <p align="center">
-  <img src="images/04-explanation.png" width="500" alt="解説画面">
+  <img src="images/04-explanation.png" width="350" alt="解説画面">
 </p>
 
 ---
